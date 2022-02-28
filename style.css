@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+p{
+    color: rgb(132, 134, 132);
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400; 
+    font-size: 16px;
+}
+section{
+    margin: 100px 0px;
+}
+/* universal selector end  */
+
+
+/* ===============================header================================== */
+/* header section style start  */
+header{
+    height: 80vh;
+    background:url(assets/image/2.png) left bottom no-repeat, url(assets/image/3.png) right bottom no-repeat, url(assets/image/1.png) bottom center no-repeat,url(assets/image/Shape\ 1.png) right top no-repeat;
+    background-size: 310px, 200px, 400px,975px auto;
+}
+
+header .header_top{
+    font-size: 20px;
+    font-weight: 500;
+}
+header .header_top .nav-item{
+    padding:5px;
+}
+header .header_top .nav-link{
+    color: #fff!important;
+    padding: 10px 6px;
+}
+header .header_top button{
+    background: #fff;
+    font-size: 20px;
+    padding: 10px 25px;
+}
+header .header_foot{
+    height: 55vh;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+}
+header .header_foot .icon_box{
+    position: absolute;
+    right: 10px;
+    top: 30px;
+    font-size: 30px;
+     
+}
+header .header_foot .icon_box .icon-1{
+    padding:12px 20px;
+    background: #fff;
+    border-radius: 50%;
+}
+header .header_foot .icon_box .icon-2{
+    padding:12px 20px;
+    background: #fff;
+    border-radius: 50%;
+}
+/* header section style end */
+
+/* ===============================search================================== */
+/* search section start  */
+#search{
+    margin-top: -50px;
+}
+#search .textbox .single{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px 85px;
+}
+#search .textbox .single select{
+    border: none;
+}
+#search .textbox .single label{
+    color: #62AF2F;
+}
+#search .textbox .single:last-child{
+    background: #62AF2F;
+    color: #fff;
+    align-self: center;
+    cursor: pointer;
+}
+/* search section start  */
+
+/* =================================about================================ */
+/* about section start  */
+#about .about-head h2{
+    font-weight: 700;
+}
+#about .about-foot a{
+    display: inline-block;
+    color: #62AF2F;
+    padding: 10px;
+    margin:20px 10px;
+    border: 1px solid #62AF2F;
+}
+#about .about-foot .mlink{
+    background: #62AF2F;
+    color: #fff;
+    margin: 0;
+}
+/* about section end */
+
+/* ==================================product=============================== */
+/* product section start  */
+#product .product-head{
+    margin: 100px 0px;
+}
+/* product section End  */
+
+/* ==================================discount=============================== */
+/* discount section start  */
+#discount{
+    height: 400px;
+    background-image: url(assets/image/7.png);
+    background-size: cover;
+}
+#discount a{
+    display: inline-block;
+    color: #fff;
+    margin: 20px 0px;
+    padding:8px 10px;
+    border: 1px solid #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+/* discount section end */
+
+/* =============================blog=========================== */
+/* blog section start  */
+#blog .blog-foot img{
+    width: 100%;
+}
+#blog .blog-foot .product-box a{
+    display: inline-block;
+    color: #62AF2F;
+    padding:8px 10px;
+    border: 1px solid #62AF2F;
+}
+/* blog section end */
+
+/* =============================achive=========================== */
+/* achive section start  */
+#achive .images img{
+    margin: 10px;
+}
+/* achive section end */
+
+/* =============================footer=========================== */
+/* footer start  */
+footer h3{
+    margin: 30px 0px;
+}
+footer .info-box input[type=email]{
+    padding: 10px 0px;
+}
+footer .info-box input[type=submit]{
+    padding: 10px;
+    background: #62AF2F;
+    color: #fff;
+}
+footer .info-box i{
+    color: #fff;
+    margin:20px 5px;
+}
