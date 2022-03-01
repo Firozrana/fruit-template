@@ -1,5 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
+/* ========================INDEXING==============================
+=================================================================
+(1) UNIVERSAL SELECTOR(18-36)
+(2) HEADER(41-85)
+(1) SEARCH(90-108)
+(1) ABOUT(113-130)
+(1) PRODUCT(135-137)
+(1) DISCOUNT(142-155)
+(1) BLOG(160-168)
+(1) ACHIVE(173-175)
+(1) FOOTER(180-194)
+================================================================= 
+================================================================= */
+
+/* universal selectors */
 *{
     margin: 0;
     padding: 0;
@@ -21,15 +36,13 @@ section{
 }
 /* universal selector end  */
 
-
 /* ===============================header================================== */
 /* header section style start  */
 header{
-    height: 80vh;
-    background:url(assets/image/2.png) left bottom no-repeat, url(assets/image/3.png) right bottom no-repeat, url(assets/image/1.png) bottom center no-repeat,url(assets/image/Shape\ 1.png) right top no-repeat;
+    min-height: 80vh;
+    background:url(assets/image/2.png) left bottom no-repeat, url(assets/image/3.png) right bottom no-repeat, url(assets/image/1.png) bottom center no-repeat,url(assets/image/Shape-1.png) right top no-repeat;
     background-size: 310px, 200px, 400px,975px auto;
 }
-
 header .header_top{
     font-size: 20px;
     font-weight: 500;
@@ -107,6 +120,9 @@ header .header_foot .icon_box .icon-2{
     margin:20px 10px;
     border: 1px solid #62AF2F;
 }
+#about .about-foot .image{
+    width: 100%;
+}
 #about .about-foot .mlink{
     background: #62AF2F;
     color: #fff;
@@ -176,3 +192,4 @@ footer .info-box i{
     color: #fff;
     margin:20px 5px;
 }
+/* footer end  */

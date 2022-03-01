@@ -1,0 +1,10 @@
+@media (max-width:768px) {
+    header{
+        background-size: 135px, 100px, 300px,975px auto;
+    }
+}
+@media (max-width:1024px) {
+    header .header_top .nav-item{
+        padding:0px;
+    }
+}
